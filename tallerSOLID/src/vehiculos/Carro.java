@@ -43,7 +43,7 @@ public class Carro implements Vehiculo{
 	@Override
 	public void escuchar() {
 		if(!radio.isEncendida()) {
-			return;
+			radio.encender();
 		}
 		//Codigo para escuchar la radio
 	}
